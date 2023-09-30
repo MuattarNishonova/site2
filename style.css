@@ -1,0 +1,299 @@
+body{
+    background: #19191B;
+}
+ ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+text-align: right;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+ .header-button button{
+   
+    width: 157px;
+    height: 44px;
+    flex-shrink: 0;
+color: #FFF;
+background-color : #19191B;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #fff;
+backdrop-filter: blur(1px);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.5px;
+ }
+
+
+ /*BIRINCHI*/
+ .text1 h1{
+    color: #FFF;
+    width: 582px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px; /* 105% */
+    margin-top: 149px;
+ }
+ .text1 p {
+    color: rgba(255, 255, 255, 0.70);
+    width: 536px;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px; /* 185.714% */
+letter-spacing: -0.657px;
+margin: 24px 0 50px;
+ }
+
+ .btn1 button{
+    color: #FFF;
+    border-radius: 4px;
+    background: #5454D4;
+    border: none;
+width: 204px;
+height: 58px;
+flex-shrink: 0;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .krug img {
+position: absolute;
+right: 10%;
+top:95px;
+ }
+ .treugolnik img{
+    position: absolute;
+    left: 40%;
+    top: 85%;
+ }
+ .upanddown img{
+   top:95px;
+   left: 40%;
+    position: absolute;
+ }
+ .plus img {
+   top: 95%;
+   right: 10%;
+    position: absolute;
+
+ }
+ #birinchi{
+    position: relative;
+ }
+
+ /*IKKINCHI*/
+
+.text2-top h1 {
+   width: 588px;
+   color: #FFF;
+
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 116.667% */
+margin-bottom: 25px;
+}
+.text2-top p {
+   width: 588px;
+   color: rgba(255, 255, 255, 0.70);
+
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px; /* 185.714% */
+letter-spacing: -0.657px;
+margin-top: 15px;
+margin-bottom: 25px;
+}
+.text2-top{
+   margin-top: 200px;
+   display: flex;
+   gap:  25px;
+}
+.img2 img{
+   width: 1300px;
+height: 670px;
+}
+#ikkinchi{
+position: relative;
+}
+.playimg img{
+   position: absolute;
+   top: 55%;
+   left: 45%;
+}
+/*UCHINCHI*/
+
+
+
+.text3 h1{
+   width: 695px;
+   color: #FFF;
+margin: 0 auto;
+margin-top: 150px;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 116.667% */
+
+margin-bottom: 100px;
+}
+.img3 {
+display: flex;
+justify-content: space-between;
+margin-left: 95px;
+}
+.card-texts h4{
+   width: 210px;
+   color: #FFF;
+text-align: center;
+
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.75px;
+margin-left: 25px;
+
+}
+.card-texts p {
+   
+color: rgba(255, 255, 255, 0.70);
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+letter-spacing: -0.5px;
+margin-bottom: 120px;
+width: 299px;
+}
+
+#uchinchi{
+position: relative;
+}
+.treugolnik3 img {
+   position: absolute;
+   top: 0%;
+
+}
+.xx img {
+ position: absolute;
+ top:13%;
+ left: 83%;
+}
+.xx3 img {
+   top: 100%;
+   left: 5%;
+position: absolute;
+}
+
+/*TORTICHI*/
+
+
+.text4 h1{
+   color: #FFF;
+margin-top: 100px;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.img41 img {
+   margin-top: 70px;
+}
+.img42 img {
+   margin-top: 128px;
+}
+.img41 img {
+   margin-top: 70px;
+}
+.img43 img {
+   margin-top: 186px;
+}
+
+.krug4 img{
+   position: absolute;
+   top:15%;
+   left: 83%;
+}
+.upanddown4 img {
+   position: absolute;
+   top: 100%;
+}
+#tortinchi{
+   position: relative;
+}
+
+
+/*BESHINCHI*/
+
+
+.text5 h1{
+   width: 826px;
+   color: #FFF;
+margin-bottom: 100px;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn5 button{
+   border:none;
+   color: #FFF;
+text-align: center;
+width: 201px;
+height: 60px;
+margin-top: 60px;
+margin-left: 200px;
+border-radius: 5px;
+background: #5454D4;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fifth-parentdiv{
+   margin-top: 200px;
+}
+.krug5 img{
+   position: absolute;
+   bottom: 10%;
+   left: 5%;
+}
+.plus5 img{
+   top: 0%;
+  
+   position: absolute;
+
+}
+#beshinchi{
+position: relative;
+}
+
+
+.footer-parentdiv {
+   margin-top: 150px;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+.footer-text p {
+   width: 285px;
+   color: rgba(255, 255, 255, 0.70);
+text-align: right;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; /* 237.5% */
+letter-spacing: -0.5px;
+}
